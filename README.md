@@ -3915,7 +3915,7 @@ pipeline {
             sh 'docker image prune -af'
         }
     }
-}
+}+
 ```
 
 * Commit the change, then push the script to the remote repo.

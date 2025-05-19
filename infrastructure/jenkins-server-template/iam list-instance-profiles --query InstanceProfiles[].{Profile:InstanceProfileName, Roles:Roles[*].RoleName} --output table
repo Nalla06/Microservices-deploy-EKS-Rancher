@@ -1,0 +1,84 @@
+{
+    "InstanceProfiles": [
+        {
+            "Path": "/",
+            "InstanceProfileName": "Admin",
+            "InstanceProfileId": "AIPAZF5GOKJORVG4OBZ7O",
+            "Arn": "arn:aws:iam::631172387421:instance-profile/Admin",
+            "CreateDate": "2023-10-13T17:36:50+00:00",
+            "Roles": [
+                {
+                    "Path": "/",
+                    "RoleName": "Admin",
+                    "RoleId": "AROAZF5GOKJOXKFEODH6W",
+                    "Arn": "arn:aws:iam::631172387421:role/Admin",
+                    "CreateDate": "2023-10-13T17:36:50+00:00",
+                    "AssumeRolePolicyDocument": {
+                        "Version": "2012-10-17",
+                        "Statement": [
+                            {
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": "ec2.amazonaws.com"
+                                },
+                                "Action": "sts:AssumeRole"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "EC2-SSM-CloudWatch-Profile",
+            "InstanceProfileId": "AIPAZF5GOKJOQTWZ6U63F",
+            "Arn": "arn:aws:iam::631172387421:instance-profile/EC2-SSM-CloudWatch-Profile",
+            "CreateDate": "2024-12-02T15:12:19+00:00",
+            "Roles": []
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "elk-server-profile-Nalla",
+            "InstanceProfileId": "AIPAZF5GOKJOVIM2SBWFL",
+            "Arn": "arn:aws:iam::631172387421:instance-profile/elk-server-profile-Nalla",
+            "CreateDate": "2023-12-22T19:58:17+00:00",
+            "Roles": []
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "jenkins-project-profile-nalla",
+            "InstanceProfileId": "AIPAZF5GOKJO3XNH2REZ4",
+            "Arn": "arn:aws:iam::631172387421:instance-profile/jenkins-project-profile-nalla",
+            "CreateDate": "2024-04-30T08:00:01+00:00",
+            "Roles": []
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "terraform",
+            "InstanceProfileId": "AIPAZF5GOKJO72OVLNN74",
+            "Arn": "arn:aws:iam::631172387421:instance-profile/terraform",
+            "CreateDate": "2023-12-07T19:08:57+00:00",
+            "Roles": [
+                {
+                    "Path": "/",
+                    "RoleName": "terraform",
+                    "RoleId": "AROAZF5GOKJO2CA5LSXNF",
+                    "Arn": "arn:aws:iam::631172387421:role/terraform",
+                    "CreateDate": "2023-12-07T19:08:56+00:00",
+                    "AssumeRolePolicyDocument": {
+                        "Version": "2012-10-17",
+                        "Statement": [
+                            {
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": "ec2.amazonaws.com"
+                                },
+                                "Action": "sts:AssumeRole"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
